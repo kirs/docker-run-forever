@@ -1,0 +1,5 @@
+#!/bin/bash
+set -ex
+
+docker build -t kirshatrov/sleep-forever .
+docker push kirshatrov/sleep-forever:latest

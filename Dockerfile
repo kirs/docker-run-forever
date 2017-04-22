@@ -1,3 +1,3 @@
 FROM ruby:2.3.3-alpine
-COPY script.rb .
+COPY sleep.rb .
 CMD [ "ruby", "sleep.rb"]
