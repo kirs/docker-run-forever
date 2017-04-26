@@ -1,0 +1,7 @@
+#!/bin/bash
+set -ex
+
+export REVISION=v2
+
+docker build -t kirshatrov/sleep-with-signals:$REVISION .
+docker push kirshatrov/sleep-with-signals:$REVISION
