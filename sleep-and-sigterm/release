@@ -1,0 +1,7 @@
+#!/bin/bash
+set -ex
+
+export REVISION=v1
+
+docker build -t kirshatrov/sleep-and-sigterm:$REVISION .
+docker push kirshatrov/sleep-and-sigterm:$REVISION
